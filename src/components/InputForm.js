@@ -7,11 +7,14 @@ class InputForm extends Component {
         e.preventDefault();
     }
   render() {
+      var styles = {
+          textAlign: 'center'
+      };
     return (
-        <div>
+        <div style={styles}>
             <form onSubmit={this.submitHandler.bind(this)}>
                 <input ref="txtField" type="text" />
-                <input type="submit"/>
+                <input type="submit" value="Add"/>
             </form>
         </div>
     );
