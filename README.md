@@ -1,2 +1,2 @@
 # todo-react
-A simple page todo list with react js
+A single page todo list with react js
